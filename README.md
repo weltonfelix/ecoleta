@@ -81,7 +81,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-This project is under the MIT license. See the [LICENSE](LICENSE.md) for details.
+This project is under the MIT license. See the [LICENSE](LICENSE) for details.
 
 ***
 Made with ♥ by Welton Felix :wave: [Get in touch!](mailto:contato.weltonf@gmail.com)
