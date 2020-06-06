@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a target="blank" href="https://bethehero-frontend.netlify.com/">
+  <a target="blank" href="https://ecoleta-web.netlify.com/">
     <img alt="Ecoleta" title="Acesse o site" src="./logo.svg" width="30%" />
   </a>
 </h1>
@@ -7,25 +7,25 @@
 # Ecoleta
 Project carried out for Next Level Week #1 from [@Rocketseat](https://github.com/rocketseat), taught by [@diego3g](https://github.com/diego3g).
 <p align="center">
-  <img alt="Github language counter" src="https://img.shields.io/github/languages/count/weltonfelix/nlw1-booster?color=%2304D361">
+  <img alt="Github language counter" src="https://img.shields.io/github/languages/count/weltonfelix/ecoleta?color=%2304D361">
 
-  <img alt="Repo size" src="https://img.shields.io/github/repo-size/weltonfelix/nlw1-booster">
+  <img alt="Repo size" src="https://img.shields.io/github/repo-size/weltonfelix/ecoleta">
 	
   <a href="https://www.github.com/weltonfelix">
     <img alt="Made by Welton" src="https://img.shields.io/badge/Made%20by-Welton-%2304D361">
   </a>
 
   <a href="https://github.com/welton/nlw1-booster/commits/master">
-    <img alt="Last commit" src="https://img.shields.io/github/last-commit/weltonfelix/nlw1-booster">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/weltonfelix/ecoleta">
   </a>
 
   <a href="https://github.com/weltonfelix/nlw1-booster/issues">
-    <img alt="Issues" src="https://img.shields.io/github/issues/weltonfelix/nlw1-booster">
+    <img alt="Issues" src="https://img.shields.io/github/issues/weltonfelix/ecoleta">
   </a>
 <a aria-label="Completo">
     <img src="https://img.shields.io/badge/Next Level Week-done-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="></img>
   </a>
-  <a href="https://github.com/weltonfelix/nlw1-booster/blob/master/LICENSE" target="_blank">
+  <a href="https://github.com/weltonfelix/ecoleta/blob/master/LICENSE" target="_blank">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen"/>
   </a>
 </p>
@@ -45,25 +45,29 @@ Project carried out for Next Level Week #1 from [@Rocketseat](https://github.com
 1. Clone this repository
 2. `cd server`
 3. `npm install`
-4. `cd ../web`
-5. `npm install`
-6. `cd ../mobile`
-7. `npm install`
-8. `cd ..`
-9. To start server
+4. Rename `.env.template` to `.env`.
+5. Add your host url.
+6. `npm run knex:migrate`
+7. `npm run knex:seed`
+8. `cd ../web`
+9. `npm install`
+10. `cd ../mobile`
+11. `npm install`
+12. `cd ..`
+13. To start server
    1. `cd server`
    2. `npm run dev`
-10. To start frontend
+14. To start frontend
     1. `cd frontend`
     2. `npm start`
-11. To start mobile
+15. To start mobile
     1. `cd mobile`
     2. `npm start`
-12. Enjoy!
+16. Enjoy!
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/weltonfelix/nlw1-booster/issues). 
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/weltonfelix/ecoleta/issues). 
 - Make a fork;
 - Create a branck with your feature: `git checkout -b my-feature`;
 - Commit changes: `git commit -m 'feat: My new feature'`;
