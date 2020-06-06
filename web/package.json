@@ -1,0 +1,75 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "description": "Frontend web do projeto Ecoleta, construído durante a trilha Booster da Next Level Week #1",
+  "keywords": [
+    "next level week",
+    "rocketseat",
+    "nodejs",
+    "react",
+    "react native",
+    "js",
+    "javascript",
+    "ts",
+    "typescript",
+    "ecoleta"
+  ],
+  "author": {
+    "name": "Welton Felix",
+    "email": "contato.weltonf@gmail.com",
+    "url": "https://github.com/weltonfelix"
+  },
+  "bugs": {
+    "url": "https://github.com/weltonfelix/nlw1-booster/issues",
+    "email": "contato.weltonf@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weltonfelix/nlw1-booster.git"
+  },
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react-dom": "^16.9.0",
+    "axios": "^0.19.2",
+    "leaflet": "^1.6.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.0.1",
+    "react-icons": "^3.10.0",
+    "react-leaflet": "^2.7.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "typescript": "~3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-leaflet": "^2.5.1",
+    "@types/react-router-dom": "^5.1.5"
+  }
+}
