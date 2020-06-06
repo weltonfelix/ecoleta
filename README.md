@@ -30,7 +30,7 @@ Project carried out for Next Level Week #1 from [@Rocketseat](https://github.com
   </a>
 </p>
 
-### ✨ [Demo](ecoleta-web.netlify.app)
+### ✨ [Demo](https://ecoleta-web.netlify.app)
 
 <h2 align='center'>
       <img title="Web" alt="web" src="./gif-web.gif" width="50%">
